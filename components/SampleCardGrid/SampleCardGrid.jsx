@@ -66,4 +66,5 @@ function SampleCardGrid(props) {
   );
 }
 
-export default SampleCardGrid;
+//export default SampleCardGrid;
+export { SampleCardGrid as default } from "./SampleCardGrid.jsx";
