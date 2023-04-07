@@ -22,10 +22,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+function User() {
+  return <h1>Hello World</h1>;
+}
+
 const App = () => (
-  <Router>
-      <Routes>
-        <Route path="/" element={"Hello World"} />
-      </Routes>
-  </Router>
+  // <Router>
+  //     <Routes>
+        <Route path="/home" component={User} />
+  //     </Routes>
+  // </Router>
 );
+export default App;
